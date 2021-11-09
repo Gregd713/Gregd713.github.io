@@ -10,11 +10,9 @@
     background-position: top;
     position: relative ;
 }
-portfolio-wrapper--flex{
-    margin-top: 3rem;
+.portfolio-wrapper--flex{
     margin-right: 30rem;
     width: 70vw;
-    padding: 1rem;
     display: flex;
     flex-wrap: wrap;
 }
@@ -23,9 +21,27 @@ portfolio-wrapper--flex{
 }
 .portfolio__card--flex .card{
     width: 16rem;
+
 }
 .portfolio-features{
     position: fixed;
     margin: 2rem 3rem;
     right: 0;
+}
+.carousel-container{
+height: 32rem;
+width: 32rem;
+object-fit: auto;
+object-position: center;
+margin-top: 3rem;
+padding: 1rem;
+position: relative;
+}
+.text{
+    margin-top: 3rem;
+    margin-right: 30rem;
+    width: 10vw;
+    padding: 1rem;
+    display: flex;
+    flex-wrap: wrap;
 }
