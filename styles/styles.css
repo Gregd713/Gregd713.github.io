@@ -1,47 +1,95 @@
-.background-container{
+.background-container2{
     height: 100vh;
     background-image: linear-gradient(
         to bottom, 
     rgb(117, 117, 250, 0.3),
     rgb(117, 117, 250, 0.6)),
-    url(../img/Background.jpg);
+    url(../img/underconstruction.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: top;
-    position: relative ;
+    background-attachment: fixed;
+    position: fixed ;
+    width: 100vw;
+    height: 100vh;
 }
-.portfolio-wrapper--flex{
-    margin-right: 30rem;
-    width: 70vw;
-    display: flex;
-    flex-wrap: wrap;
+.navbar{
+    padding: 0;
 }
-.portfolio-wrapper--flex> .portfolio__card--flex{
-    margin: 1rem;
-}
-.portfolio__card--flex .card{
-    width: 16rem;
-
-}
-.portfolio-features{
-    position: fixed;
-    margin: 2rem 3rem;
-    right: 0;
-}
-.carousel-container{
-height: 32rem;
-width: 32rem;
-object-fit: auto;
-object-position: center;
-margin-top: 3rem;
-padding: 1rem;
-position: relative;
+.container-fluid{
+    background-color: rgb(67, 64, 224);
 }
 .text{
     margin-top: 3rem;
     margin-right: 30rem;
-    width: 10vw;
+    width: 30vw;
     padding: 1rem;
     display: flex;
     flex-wrap: wrap;
+}
+.text2{
+    margin-top: 6rem;
+    text-align: center;
+}
+.lower{
+    position: relative;
+    margin-top: 13rem;
+    padding: 1px;
+    display: flex;
+    flex-wrap: wrap;
+    float: right;
+}
+.about{
+    margin-top: 6rem;
+    width: 45vw;
+    position:absolute;
+    display: flex;
+    flex-wrap: wrap;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
+.card-img-top{
+    position:absolute;
+    display: flex;
+    flex-wrap: wrap;
+    width:20vw;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
+/* .card-img-top2{
+    position:absolute;
+    display: flex;
+    flex-wrap: wrap;
+} */
+.card{
+    background-color: rgb(67, 64, 224);
+}
+.contact{
+    position:absolute;
+    display: flex;
+    flex-wrap: wrap;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
+body{
+    background-image: 
+    linear-gradient(
+        to bottom, 
+    rgb(117, 117, 250, 0.3),
+    rgba(44, 44, 165, 0.3)),
+    url("../img/Background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    background-attachment: fixed;
+    position: relative;
+    opacity: .9;
+    width: 100vw;
+    height: 100vh;
 }
